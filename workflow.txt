@@ -1,0 +1,14 @@
+Data Collection
+Data pre-processing
+Feature extraction
+User Input
+
+Note: Here we will use cosine similarity algorithm which is used to find similarity between two vectors.
+
+output(list of movies)
+
+
+1. Sometimes it may happen that user makes a mistake by typing the proper name of his favourite movie. Then we have to take the closest input that matches the input.
+   that's why we are using difflib
+
+2. TfidfVectorizer is used to convert all textual data to feature vector.
